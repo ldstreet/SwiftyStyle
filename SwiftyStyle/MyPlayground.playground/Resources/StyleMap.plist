@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StyleOne</key>
+	<dict>
+		<key>normalTextColor</key>
+		<string>ffffff</string>
+		<key>font</key>
+		<string>title1</string>
+		<key>backgroundColor</key>
+		<string>00ff00</string>
+		<key>borderColor</key>
+		<string>ff0000</string>
+		<key>borderWidth</key>
+		<integer>4</integer>
+		<key>tintColor</key>
+		<string>0000ff</string>
+	</dict>
+</dict>
+</plist>

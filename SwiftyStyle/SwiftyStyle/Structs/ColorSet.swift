@@ -6,7 +6,7 @@
 //  Copyright © 2017 com.ldstreet. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public protocol ColorSetProtocol {
     init?(rawValue: String)

@@ -14,19 +14,33 @@ public protocol StylePropertyProtocol {
 
 //An enum with all
 public enum StyleProperty: String, StylePropertyProtocol {
-    
-    case normalTextColor
-    
+    //General
+    case textColor
     case fontSize
     case font
     
-    
     case backgroundColor
-    case borderColor
-    case borderWidth
     case tintColor
     
+    case borderColor
+    case borderWidth
     
+    //Used for UIButtons
+    case normalTitleColor
+    case normalBackgroundColor
+    case normalTitleShadowColor
+    
+    case disabledTitleColor
+    case disabledBackgroundColor
+    case disabledTitleShadowColor
+    
+    case selectedTitleColor
+    case selectedBackgroundColor
+    case selectedTitleShadowColor
+    
+    case highlightedTitleColor
+    case highlightedBackgroundColor
+    case highlightedTitleShadowColor
 }
 
 public struct StyleSet {
@@ -41,15 +55,7 @@ public struct StyleSet {
     
     public func getValue<T>(for property: StylePropertyProtocol) -> T? {
         
-        return getValue(for: property.rawValue)
-    }
-    
-    public mutating func setValue<T>(for type: StylePropertyProtocol, value: T) {
-        setValue(for: type.rawValue, value: value)
-    }
-
-    public func getValue<T>(for property: String) -> T? {
-        guard let prop = properties[property] else {
+        guard let prop = properties[property.rawValue] else {
             return nil
         }
         
@@ -61,17 +67,23 @@ public struct StyleSet {
         return typedProp
     }
     
-    public mutating func setValue<T>(for type: String, value: T) {
-        properties[type] = value
+    public mutating func setValue<T>(for type: StylePropertyProtocol, value: T) {
+        properties[type.rawValue] = value
     }
     
-    public subscript <T>(property: String) -> T? {
+    public subscript <T>(property: StylePropertyProtocol) -> T? {
         get {
             return getValue(for: property)
         }
         set {
             setValue(for: property, value: newValue)
         }
+    }
+}
+
+extension String: StylePropertyProtocol {
+    public var rawValue: String {
+        return self
     }
 }
 

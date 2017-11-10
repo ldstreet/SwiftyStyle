@@ -4,20 +4,30 @@ import UIKit
 import PlaygroundSupport
 import SwiftyStyle
 
-PlistStyleStrategy.plistStyleStrategyInfo.defaultPlistName = "StyleMap"
+
+
+
+typealias PlistStrategy = PlistStyleStrategy<HexColorSet, PreferredFontSet>
+
+PlistStrategy.setPlist(forType: StylePlistType.defaultPlist, plistName: "StyleMap")
 
 class LSButton: UIButton, Stylable {
+    
     var styleInfo = StyleInfo()
-    typealias Strategy = PlistStyleStrategy
+    typealias Strategy = PlistStrategy
 }
+
+
 
 let button = LSButton()
 button.styleKey = "StyleOne"
+
 button.setTitle("hello world!", for: .normal)
-button.frame = CGRect(x: 0.0, y: 0.0, width: 200, height: 75)
+button.frame = CGRect(x: 10.0, y: 10.0, width: 200, height: 75)
 
 let vc = UIViewController()
 vc.view.backgroundColor = .white
 vc.view.addSubview(button)
 
 PlaygroundPage.current.liveView = vc
+

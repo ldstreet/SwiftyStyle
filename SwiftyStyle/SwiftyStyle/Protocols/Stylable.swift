@@ -112,6 +112,7 @@ extension SwiftyStyleProtocol where Self: SwiftyStyleSetContainerProtocol {
     
     public func style(as key: String) {
         if let set = styleSet(key: key) {
+            
             self.style(styleSet: set)
             
             //Any additional styling needed that is not included in base layer.
@@ -119,39 +120,6 @@ extension SwiftyStyleProtocol where Self: SwiftyStyleSetContainerProtocol {
             
         } else {
             print("Could not retrieve styleSet for \(String(describing: Self.self)), make sure styleKey has been set.")
-        }
-    }
-    
-}
-
-extension UIView {
-    
-    @IBInspectable
-    public var styleKey: String? {
-        get {
-            if let info = self as? SwiftyStyleInfoProtocol {
-                return info.styleKey
-            } else if self is SwiftyStyleBasicKeyProtocol {
-                print("Key is not stored when using SwiftyStyleBasicKeyProtocol, value will always be nil. To reuse key, subclass and conform to SwiftyStyleInfoProtocol.")
-                return nil
-            } else {
-                print("You must conform to protocol SwiftyStyleInfoProtocol in order to get a style key!")
-                return nil
-            }
-        }
-        set {
-            if let info = self as? SwiftyStyleInfoProtocol {
-                info.styleKey = newValue
-                if let stylable = self as? SwiftyStyleProtocol {
-                    stylable.style()
-                }
-            } else if self is SwiftyStyleBasicKeyProtocol {
-                if let stylable = self as? SwiftyStyleProtocol, let key = newValue {
-                    stylable.style(as: key)
-                }
-            } else {
-                print("You must conform to protocol SwiftyStyleInfoProtocol or SwiftyStyleBasicKeyProtocol in order to set a style key!")
-            }
         }
     }
     

@@ -4,18 +4,20 @@
 <dict>
 	<key>StyleOne</key>
 	<dict>
-		<key>normalTextColor</key>
+		<key>normalTitleColor</key>
 		<string>ffffff</string>
 		<key>font</key>
 		<string>title1</string>
-		<key>backgroundColor</key>
+		<key>highlightedTitleShadowColor</key>
+		<string>000000</string>
+		<key>normalBackgroundColor</key>
+		<string>000000</string>
+		<key>highlightedBackgroundColor</key>
 		<string>00ff00</string>
 		<key>borderColor</key>
 		<string>ff0000</string>
 		<key>borderWidth</key>
 		<integer>4</integer>
-		<key>tintColor</key>
-		<string>0000ff</string>
 	</dict>
 </dict>
 </plist>

@@ -7,13 +7,21 @@
 //
 
 import XCTest
+import UIKit
 @testable import SwiftyStyle
+
+typealias PlistStrategy = PlistStyleStrategy<HexColorSet, PreferredFontSet>
 
 class SwiftyStyleTests: XCTestCase {
     
+    class LSButton: UIButton, Stylable {
+        var styleInfo = StyleInfo()
+        typealias Strategy = PlistStrategy
+    }
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        PlistStrategy.setPlist(forType: StylePlistType.defaultPlist, plistName: "StyleMap", bundle: Bundle(for: type(of: self)))
     }
     
     override func tearDown() {
@@ -22,8 +30,8 @@ class SwiftyStyleTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let button = LSButton()
+        button.styleKey = "StyleOne"
     }
     
     func testPerformanceExample() {

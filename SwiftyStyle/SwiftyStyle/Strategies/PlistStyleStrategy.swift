@@ -6,11 +6,12 @@
 //  Copyright © 2017 com.ldstreet. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-public protocol PlistStyleStrategyProtocol: StyleStrategy {
-    associatedtype ColorSet: ColorSetProtocol
-    associatedtype FontSet: FontSetProtocol
+internal protocol PlistStyleStrategyProtocol: StyleStrategy {
+
+    associatedtype CS: ColorSetProtocol
+    associatedtype FS: FontSetProtocol
     static var plistStyleStrategyInfo: PlistStyleStrategyInfo { get set }
 }
 
@@ -63,82 +64,49 @@ extension PlistStyleStrategyProtocol {
         guard let props = properties else { return nil }
         
         //Transform properties from plist into style set, then return
-        return transformDictionaryOfPropertiesIntoStyleSet(properties: props, ColorSetType: ColorSet.self, FontSetType: FontSet.self)
+        return transformDictionaryOfPropertiesIntoStyleSet(properties: props, ColorSetType: CS.self, FontSetType: FS.self)
     }
     
 }
 
-public class PlistStyleStrategy: PlistStyleStrategyProtocol {
-    
-    public typealias ColorSet = HexColorSet
-    public typealias FontSet = PreferredFontSet
-    
-    public static var plistStyleStrategyInfo = PlistStyleStrategyInfo()
+final public class PlistStyleStrategy<ColorSet: ColorSetProtocol, FontSet: FontSetProtocol>: PlistStyleStrategyBase, PlistStyleStrategyProtocol {
+
+    public typealias CS = ColorSet
+    public typealias FS = FontSet
     
 }
 
+public class PlistStyleStrategyBase {
+    
+    private init() {}
+    
+    internal static var plistStyleStrategyInfo = PlistStyleStrategyInfo()
+    
+    public static func setPlist(forType type: StylePlistType, plistName name: String, bundle: Bundle = Bundle.main) {
+        plistStyleStrategyInfo.setPlist(forType: type, plistName: name, bundle: bundle)
+    }
+}
 
-public class PlistStyleStrategyInfo {
+public enum StylePlistType {
+    case defaultPlist, regularRegularPlist, regularCompactPlist, compactCompactPlist, compactRegularPlist
+}
+
+internal class PlistStyleStrategyInfo {
     
-    public init() {}
+    internal init() {}
     
-    public func setDefaultPlist(name: String, bundle: Bundle) {
-        defaultPlist = retrievePlist(with: name, bundle: bundle)
-    }
-    
-    public func setRegularRegularPlist(name: String, bundle: Bundle) {
-        regularRegularPlist = retrievePlist(with: name, bundle: bundle)
-    }
-    
-    public func setRegularCompactPlist(name: String, bundle: Bundle) {
-        regularCompactPlist = retrievePlist(with: name, bundle: bundle)
-    }
-    
-    public func setCompactCompactPlist(name: String, bundle: Bundle) {
-        compactCompactPlist = retrievePlist(with: name, bundle: bundle)
-    }
-    
-    public func setCompactRegularPlist(name: String, bundle: Bundle) {
-        compactRegularPlist = retrievePlist(with: name, bundle: bundle)
-    }
-    
-    public var defaultPlistName: String? {
-        didSet {
-            if let name = defaultPlistName {
-                setDefaultPlist(name: name, bundle: Bundle.main)
-            }
-        }
-    }
-    
-    public var regularRegularPlistName: String? {
-        didSet {
-            if let name = regularRegularPlistName {
-                setRegularRegularPlist(name: name, bundle: Bundle.main)
-            }
-        }
-    }
-    
-    public var regularCompactPlistPath: String? {
-        didSet {
-            if let name = regularCompactPlistPath {
-                setRegularCompactPlist(name: name, bundle: Bundle.main)
-            }
-        }
-    }
-    
-    public var compactCompactPlistPath: String? {
-        didSet {
-            if let name = compactCompactPlistPath {
-                setCompactCompactPlist(name: name, bundle: Bundle.main)
-            }
-        }
-    }
-    
-    public var compactRegularPlistPath: String? {
-        didSet {
-            if let name = compactRegularPlistPath {
-                setCompactRegularPlist(name: name, bundle: Bundle.main)
-            }
+    internal func setPlist(forType type: StylePlistType, plistName name: String, bundle: Bundle = Bundle.main) {
+        switch type {
+        case .defaultPlist:
+            defaultPlist = retrievePlist(with: name, bundle: bundle)
+        case .regularRegularPlist:
+            regularRegularPlist = retrievePlist(with: name, bundle: bundle)
+        case .regularCompactPlist:
+            regularCompactPlist = retrievePlist(with: name, bundle: bundle)
+        case .compactCompactPlist:
+            compactCompactPlist = retrievePlist(with: name, bundle: bundle)
+        case .compactRegularPlist:
+            compactRegularPlist = retrievePlist(with: name, bundle: bundle)
         }
     }
     

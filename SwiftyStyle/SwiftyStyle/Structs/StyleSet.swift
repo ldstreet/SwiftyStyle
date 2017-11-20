@@ -30,31 +30,91 @@ extension String: StylePropertyProtocol {
 public enum StyleProperty: String, StylePropertyProtocol {
     
     //General
+    
+    /**
+        Text color
+    */
     case textColor
+    /**
+     Font size
+    */
     case fontSize
+    /**
+     Font
+    */
     case font
     
+    /**
+     Cackground color
+    */
     case backgroundColor
+    /**
+     Tint color
+    */
     case tintColor
     
+    /**
+     Border color
+    */
     case borderColor
+    /**
+     Border width
+    */
     case borderWidth
     
     //Used for UIButtons
+    
+    /**
+     Title color for normal state
+    */
     case normalTitleColor
+    /**
+     Background color for normal state
+    */
     case normalBackgroundColor
+    /**
+     Title shadow color for normal state
+    */
     case normalTitleShadowColor
     
+    /**
+     Title color for disabled state
+    */
     case disabledTitleColor
+    /**
+     Background color for disabled state
+    */
     case disabledBackgroundColor
+    /**
+     Title shadow color for disabled state
+    */
     case disabledTitleShadowColor
     
+    
+    /**
+     Title color for selected state
+    */
     case selectedTitleColor
+    /**
+     Background color for selected state
+    */
     case selectedBackgroundColor
+    /**
+     Title shadow color for selected state
+    */
     case selectedTitleShadowColor
     
+    /**
+     Title color for highlighted state
+    */
     case highlightedTitleColor
+    /**
+     Background color for highlighted state
+    */
     case highlightedBackgroundColor
+    /**
+     Title shadow color for highlighted state
+    */
     case highlightedTitleShadowColor
 }
 

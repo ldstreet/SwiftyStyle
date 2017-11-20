@@ -34,7 +34,10 @@ public class PlistStyleStrategyBase {
     }
 }
 
-final public class PlistStyleStrategy<ColorSet: ColorSetProtocol, FontSet: FontSetProtocol>: PlistStyleStrategyBase , StyleStrategy{
+/**
+ StyleStrategy that defines how to retrieve StyleSet. Needs designated ColorSet and FontSet to determine how colors and fonts should be translated from String into UIColor/UIFont
+*/
+final public class PlistStyleStrategy<ColorSet: ColorSetProtocol, FontSet: FontSetProtocol>: PlistStyleStrategyBase, StyleStrategy{
     
     /**
      Retreives StyleSet based on styleKey using current size classes to pick appropriate set

@@ -1,276 +1,10 @@
 {
   "warnings": [
     {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Classes/StyleInfo.swift",
-      "line": 14,
-      "symbol": "StyleInfo",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Classes/StyleInfo.swift",
-      "line": 38,
-      "symbol": "StyleInfo.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Extensions/UIButton+Stylable.swift",
-      "line": 34,
-      "symbol": "SwiftyStyleProtocol.style(styleSet:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Extensions/UIImageView+Stylable.swift",
-      "line": 16,
-      "symbol": "SwiftyStyleProtocol.style(styleSet:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Extensions/UILabel+Stylable.swift",
-      "line": 16,
-      "symbol": "SwiftyStyleProtocol.style(styleSet:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Extensions/UIView+Extensions.swift",
-      "line": 14,
-      "symbol": "UIView.styleKey",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleManager.swift",
       "line": 18,
       "symbol": "StyleManager",
       "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleManager.swift",
-      "line": 29,
-      "symbol": "StyleManager.shared",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleManager.swift",
-      "line": 47,
-      "symbol": "StyleManager.styleAllControls()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleStrategy.swift",
-      "line": null,
-      "symbol": "StyleStrategy",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleStrategy.swift",
-      "line": 14,
-      "symbol": "StyleStrategy",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleStrategy.swift",
-      "line": 19,
-      "symbol": "StyleStrategy.retrieveStyleSet(forStyleKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleStrategy.swift",
-      "line": 33,
-      "symbol": "StyleStrategy.transformDictionaryOfPropertiesIntoStyleSet(properties:ColorSetType:FontSetType:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyAdditionalStyleProtocol.swift",
-      "line": 19,
-      "symbol": "SwiftyAdditionalStyleProtocol.additionalStyle(styleSet:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleBasicKeyProtocol.swift",
-      "line": 16,
-      "symbol": "SwiftyStyleBasicKeyProtocol",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleBasicKeyProtocol.swift",
-      "line": 21,
-      "symbol": "SwiftyStyleBasicKeyProtocol.styleKey",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleInfoProtocol.swift",
-      "line": 20,
-      "symbol": "SwiftyStyleInfoProtocol.styleInfo",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleInfoProtocol.swift",
-      "line": 29,
-      "symbol": "SwiftyStyleInfoProtocol.styleKey",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": null,
-      "symbol": "SwiftyStyleProtocol",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": null,
-      "symbol": "SwiftyStyleProtocol",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": null,
-      "symbol": "SwiftyStyleProtocol",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": null,
-      "symbol": "SwiftyStyleProtocol",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": null,
-      "symbol": "SwiftyStyleProtocol",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": 14,
-      "symbol": "SwiftyStyleProtocol",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": 19,
-      "symbol": "SwiftyStyleProtocol.style(styleSet:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": 24,
-      "symbol": "SwiftyStyleProtocol.style(as:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": 33,
-      "symbol": "SwiftyStyleProtocol.style()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift",
-      "line": 48,
-      "symbol": "SwiftyStyleProtocol.style(as:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleSetRetrieverProtocol.swift",
-      "line": 28,
-      "symbol": "SwiftyStyleSetRetrieverProtocol.styleSet(key:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/Typealias.swift",
-      "line": 16,
-      "symbol": "Stylable",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/Typealias.swift",
-      "line": 21,
-      "symbol": "StylableBasic",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/Typealias.swift",
-      "line": 26,
-      "symbol": "StylableBase",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/Typealias.swift",
-      "line": 31,
-      "symbol": "StylableExtension",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/Typealias.swift",
-      "line": 36,
-      "symbol": "StylableAdditional",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategy.swift",
-      "line": 14,
-      "symbol": "PlistStyleStrategyBase",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategy.swift",
-      "line": 32,
-      "symbol": "PlistStyleStrategyBase.setPlist(forType:plistName:bundle:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategy.swift",
-      "line": 37,
-      "symbol": "PlistStyleStrategy",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategy.swift",
-      "line": 42,
-      "symbol": "PlistStyleStrategy.retrieveStyleSet(forStyleKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
-      "line": 14,
-      "symbol": "StylePlistType",
-      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -337,34 +71,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
-      "line": 20,
-      "symbol": "HexColorSet",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
-      "line": 27,
-      "symbol": "HexColorSet.init(rawValue:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
-      "line": 60,
-      "symbol": "HexColorSet.rawValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
-      "line": 65,
-      "symbol": "HexColorSet.color",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
       "line": 11,
       "symbol": "FontSetProtocol",
@@ -394,13 +100,6 @@
     },
     {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
-      "line": 23,
-      "symbol": "CustomFontSet",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
       "line": 25,
       "symbol": "CustomFontSet.init(rawValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
@@ -418,13 +117,6 @@
       "line": 33,
       "symbol": "CustomFontSet.font",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
-      "line": 43,
-      "symbol": "SystemFontSet",
-      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -502,13 +194,6 @@
       "line": 47,
       "symbol": "SystemFontSet.font",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
-      "line": 79,
-      "symbol": "PreferredFontSet",
-      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -597,20 +282,6 @@
     },
     {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": null,
-      "symbol": "StyleSet",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 14,
-      "symbol": "StylePropertyProtocol",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
       "line": 15,
       "symbol": "StylePropertyProtocol.rawValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
@@ -621,13 +292,6 @@
       "line": 22,
       "symbol": "String.rawValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 30,
-      "symbol": "StyleProperty",
-      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -761,41 +425,6 @@
       "line": 58,
       "symbol": "StyleProperty.highlightedTitleShadowColor",
       "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 64,
-      "symbol": "StyleSet",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 69,
-      "symbol": "StyleSet.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 74,
-      "symbol": "StyleSet.init(properties:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 112,
-      "symbol": "StyleSet.subscript(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.subscript",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
-      "line": 127,
-      "symbol": "StyleSet.subscript(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     }
   ],

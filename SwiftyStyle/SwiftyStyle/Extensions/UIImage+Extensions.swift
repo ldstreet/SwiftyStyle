@@ -10,6 +10,12 @@ import UIKit
 
 extension UIImage {
     
+    /**
+     Allows adding mask to image
+     
+     - Parameter with tintColor: UIColor used for masking image
+     - Returns: UIImage tinted as tintColor
+    */
     internal func maskedImage(with tintColor: UIColor) -> UIImage {
         
         UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
@@ -39,8 +45,5 @@ extension UIImage {
         UIGraphicsEndImageContext()
         
         return image
-        
     }
-
-    
 }

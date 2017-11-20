@@ -14,6 +14,12 @@ public protocol FontSetProtocol {
     var font: UIFont { get }
 }
 
+/**
+ Implementation of FontSetProtocol which uses UIFont's init(name:, size:) function to transform Strings into UIFonts using the font's name as the String key.
+ 
+ - Remark: Uses default pointSize of 25. To set pointSize, consider defining property like fontSize to call UIFont's .withSize(fontSize:) to convert this to a new Font with a given size.
+ 
+ */
 public struct CustomFontSet: FontSetProtocol {
     
     public init?(rawValue: String) {
@@ -28,7 +34,12 @@ public struct CustomFontSet: FontSetProtocol {
     
 }
 
-
+/**
+ Implementation of FontSetProtocol which uses UIFont's systemFont(ofSize:, weight:) function to transform Strings into UIFonts using the font weight as the String key.
+ 
+ - Remark: Uses default pointSize of 25. To set pointSize, consider defining property like fontSize to call UIFont's .withSize(fontSize:) to convert this to a new Font with a given size.
+ 
+ */
 public enum SystemFontSet: String, FontSetProtocol {
 
     case regular, bold, semibold, medium, black, light, ultraLight, thin, heavy, italic
@@ -60,7 +71,11 @@ public enum SystemFontSet: String, FontSetProtocol {
     }
 }
 
-//When using this FontSet, no sizes need be specified as they are implicitly derived from UIFontTextStyle
+/**
+ Implementation of FontSetProtocol which uses UIFont's preferredFont(forTextStyle:) function to transform Strings into UIFonts
+ 
+ - Remark: When using this FontSet, no sizes need be specified as they are implicitly derived from UIFontTextStyle
+ */
 public enum PreferredFontSet: String, FontSetProtocol {
     
     case body, callout, caption1, caption2, footnote, headline, subheadline, largeTitle, title1, title2, title3

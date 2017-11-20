@@ -10,8 +10,11 @@ import UIKit
 
 extension SwiftyStyleProtocol where Self: UILabel {
     
+    /**
+     Default implementation of SwiftyStyleProtocol for UILabel
+     */
     public func style(styleSet: StyleSet) {
-        if let color: UIColor = styleSet[.textColor] {
+        if let color: UIColor = styleSet[StyleProperty.textColor] {
             self.textColor = color
         }
         if let font: UIFont = styleSet[.font] {

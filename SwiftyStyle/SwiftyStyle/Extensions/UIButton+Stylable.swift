@@ -10,6 +10,9 @@ import UIKit
 
 extension SwiftyStyleProtocol where Self: UIButton {
     
+    /**
+     Basic implemetation to set background color of UIButton
+    */
     private func setBackgroundColor(color: UIColor, state: UIControlState) {
         
         UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
@@ -25,6 +28,9 @@ extension SwiftyStyleProtocol where Self: UIButton {
         self.setBackgroundImage(colorImage, for: state)
     }
     
+    /**
+     Default implementation of SwiftyStyleProtocol for UIButton
+     */
     public func style(styleSet: StyleSet) {
         
         //Normal State

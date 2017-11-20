@@ -1,0 +1,446 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Extensions/UIView+Extensions.swift",
+      "line": 14,
+      "symbol": "UIView.styleKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleManager.swift",
+      "line": 18,
+      "symbol": "StyleManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategy.swift",
+      "line": 37,
+      "symbol": "PlistStyleStrategy",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
+      "line": 15,
+      "symbol": "StylePlistType.defaultPlist",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
+      "line": 16,
+      "symbol": "StylePlistType.regularRegularPlist",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
+      "line": 17,
+      "symbol": "StylePlistType.regularCompactPlist",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
+      "line": 18,
+      "symbol": "StylePlistType.compactCompactPlist",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
+      "line": 19,
+      "symbol": "StylePlistType.compactRegularPlist",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
+      "line": 11,
+      "symbol": "ColorSetProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
+      "line": 12,
+      "symbol": "ColorSetProtocol.init(rawValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
+      "line": 13,
+      "symbol": "ColorSetProtocol.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift",
+      "line": 14,
+      "symbol": "ColorSetProtocol.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 11,
+      "symbol": "FontSetProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 12,
+      "symbol": "FontSetProtocol.init(rawValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 13,
+      "symbol": "FontSetProtocol.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 14,
+      "symbol": "FontSetProtocol.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 25,
+      "symbol": "CustomFontSet.init(rawValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 31,
+      "symbol": "CustomFontSet.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 33,
+      "symbol": "CustomFontSet.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.black",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.bold",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.heavy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.italic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.light",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.medium",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.regular",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.semibold",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.thin",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 45,
+      "symbol": "SystemFontSet.ultraLight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 47,
+      "symbol": "SystemFontSet.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.body",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.callout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.caption1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.caption2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.footnote",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.headline",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.largeTitle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.subheadline",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.title1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.title2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 81,
+      "symbol": "PreferredFontSet.title3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 83,
+      "symbol": "PreferredFontSet.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 15,
+      "symbol": "StylePropertyProtocol.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 22,
+      "symbol": "String.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 33,
+      "symbol": "StyleProperty.textColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 34,
+      "symbol": "StyleProperty.fontSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 35,
+      "symbol": "StyleProperty.font",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 37,
+      "symbol": "StyleProperty.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 38,
+      "symbol": "StyleProperty.tintColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 40,
+      "symbol": "StyleProperty.borderColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 41,
+      "symbol": "StyleProperty.borderWidth",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 44,
+      "symbol": "StyleProperty.normalTitleColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 45,
+      "symbol": "StyleProperty.normalBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 46,
+      "symbol": "StyleProperty.normalTitleShadowColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 48,
+      "symbol": "StyleProperty.disabledTitleColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 49,
+      "symbol": "StyleProperty.disabledBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 50,
+      "symbol": "StyleProperty.disabledTitleShadowColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 52,
+      "symbol": "StyleProperty.selectedTitleColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 53,
+      "symbol": "StyleProperty.selectedBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 54,
+      "symbol": "StyleProperty.selectedTitleShadowColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 56,
+      "symbol": "StyleProperty.highlightedTitleColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 57,
+      "symbol": "StyleProperty.highlightedBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift",
+      "line": 58,
+      "symbol": "StyleProperty.highlightedTitleShadowColor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle"
+}

@@ -4,15 +4,12 @@ import UIKit
 import PlaygroundSupport
 import SwiftyStyle
 
-
-
-
 typealias PlistStrategy = PlistStyleStrategy<HexColorSet, PreferredFontSet>
 
 PlistStrategy.setPlist(forType: StylePlistType.defaultPlist, plistName: "StyleMap")
 
 class LSButton: UIButton, Stylable {
-    
+
     var styleInfo = StyleInfo()
     typealias Strategy = PlistStrategy
 }
@@ -29,5 +26,6 @@ let vc = UIViewController()
 vc.view.backgroundColor = .white
 vc.view.addSubview(button)
 
-PlaygroundPage.current.liveView = vc
+PlaygroundPage.current.liveView = button
+
 

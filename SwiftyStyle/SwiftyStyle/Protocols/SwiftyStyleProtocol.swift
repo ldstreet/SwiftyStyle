@@ -25,17 +25,13 @@ public protocol SwiftyStyleProtocol: class {
     
 }
 
-extension SwiftyStyleProtocol {
+extension SwiftyStyleProtocol where Self: SwiftyStyleInfoProtocol {
     
     /**
-     Wraps style(as key: String), conrol must conform to SwiftyStyleInfoProtocol in order to style using styleKey, otherwise nothing will happen.
+     Wraps style(as key: String), conrol must conform to SwiftyStyleInfoProtocol in order to style using styleKey
     */
     public func style() {
-        if let styleInfo = self as? SwiftyStyleInfoProtocol, let key = styleInfo.styleKey {
-            style(as: key)
-        } else {
-            print("\(String(describing: Self.self)) does not conform to SwiftyStyleInfoProtocol, cannot call style() without stored key.")
-        }
+        style(as: styleKey ?? "No style key")
     }
     
 }

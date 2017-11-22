@@ -1,10 +1,17 @@
 {
   "warnings": [
     {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleManager.swift",
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Classes/StyleManager.swift",
       "line": 18,
       "symbol": "StyleManager",
       "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Classes/StyleManager.swift",
+      "line": 26,
+      "symbol": "StyleManager.listeningForSizeClassChanges",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {

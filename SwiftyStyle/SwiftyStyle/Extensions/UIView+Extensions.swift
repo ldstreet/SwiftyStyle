@@ -28,7 +28,7 @@ extension UIView {
         set {
             if let info = self as? SwiftyStyleInfoProtocol {
                 info.styleKey = newValue
-                if let stylable = self as? SwiftyStyleProtocol {
+                if let stylable = self as? SwiftyStyleProtocol & SwiftyStyleInfoProtocol {
                     stylable.style()
                 }
             } else if self is SwiftyStyleBasicKeyProtocol {

@@ -23,6 +23,12 @@
 		2A1067DB1FB6538000985CF0 /* SwiftyStyle_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1067D21FB6537F00985CF0 /* SwiftyStyle_tvOS.framework */; };
 		2A1067E01FB6538000985CF0 /* SwiftyStyle_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1067DF1FB6538000985CF0 /* SwiftyStyle_tvOSTests.swift */; };
 		2A1067E21FB6538000985CF0 /* SwiftyStyle_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1067D41FB6537F00985CF0 /* SwiftyStyle_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2CF2A31FC4F184006DFCF7 /* StyleManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CF2A21FC4F184006DFCF7 /* StyleManagerTests.swift */; };
+		2A2CF2A61FC4F1CA006DFCF7 /* StylableLabelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CF2A51FC4F1CA006DFCF7 /* StylableLabelMock.swift */; };
+		2A2CF2A91FC4F33E006DFCF7 /* StyleStrategyMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CF2A81FC4F33E006DFCF7 /* StyleStrategyMock.swift */; };
+		2A2CF2AB1FC4FBDD006DFCF7 /* SwiftyStyleInfoProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CF2AA1FC4FBDD006DFCF7 /* SwiftyStyleInfoProtocolTests.swift */; };
+		2A2CF2AD1FC52223006DFCF7 /* SwiftyStyleInfoProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CF2AC1FC52223006DFCF7 /* SwiftyStyleInfoProtocolMock.swift */; };
+		2A2CF2AF1FC52C11006DFCF7 /* SwiftyStyleProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CF2AE1FC52C11006DFCF7 /* SwiftyStyleProtocolTests.swift */; };
 		2A539F821FB9330300949A64 /* StyleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F811FB9330300949A64 /* StyleInfo.swift */; };
 		2A539F841FB9334100949A64 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F831FB9334100949A64 /* Typealias.swift */; };
 		2A539F861FB9336E00949A64 /* SwiftyStyleInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F851FB9336E00949A64 /* SwiftyStyleInfoProtocol.swift */; };
@@ -41,6 +47,15 @@
 		2A7D56E81FB009D200393940 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E71FB009D200393940 /* ColorSet.swift */; };
 		2A7D56EC1FB2004A00393940 /* FontSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56EB1FB2004A00393940 /* FontSet.swift */; };
 		2A80515E1FB60407008DE717 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80515D1FB60407008DE717 /* UIImage+Extensions.swift */; };
+		2AAA244F1FC4DC61001527E4 /* StyleStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA244E1FC4DC61001527E4 /* StyleStrategyTests.swift */; };
+		2AAA24501FC4DDD4001527E4 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F831FB9334100949A64 /* Typealias.swift */; };
+		2AAA24511FC4DDD4001527E4 /* SwiftyStyleInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F851FB9336E00949A64 /* SwiftyStyleInfoProtocol.swift */; };
+		2AAA24521FC4DDD4001527E4 /* SwiftyStyleBasicKeyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F871FB9339D00949A64 /* SwiftyStyleBasicKeyProtocol.swift */; };
+		2AAA24531FC4DDD4001527E4 /* SwiftyStyleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F891FB933B500949A64 /* SwiftyStyleProtocol.swift */; };
+		2AAA24541FC4DDD4001527E4 /* SwiftyAdditionalStyleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F8B1FB933D400949A64 /* SwiftyAdditionalStyleProtocol.swift */; };
+		2AAA24551FC4DDD4001527E4 /* SwiftyStyleSetRetrieverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F8D1FB9340D00949A64 /* SwiftyStyleSetRetrieverProtocol.swift */; };
+		2AAA24561FC4DDDD001527E4 /* PlistStyleStrategyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE4B4151FC2A8C300620A58 /* PlistStyleStrategyInfo.swift */; };
+		2AAA24571FC4DDE0001527E4 /* StyleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F811FB9330300949A64 /* StyleInfo.swift */; };
 		2AC280741FB351E400890178 /* UILabel+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC280731FB351E400890178 /* UILabel+Stylable.swift */; };
 		2AD64C9E1FB608E40055FCF4 /* UIImageView+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD64C9D1FB608E40055FCF4 /* UIImageView+Stylable.swift */; };
 		2AD64CA01FB609A10055FCF4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD64C9F1FB609A10055FCF4 /* UIView+Extensions.swift */; };
@@ -72,6 +87,12 @@
 		2A1067DA1FB6538000985CF0 /* SwiftyStyle-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyStyle-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1067DF1FB6538000985CF0 /* SwiftyStyle_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStyle_tvOSTests.swift; sourceTree = "<group>"; };
 		2A1067E11FB6538000985CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2CF2A21FC4F184006DFCF7 /* StyleManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManagerTests.swift; sourceTree = "<group>"; };
+		2A2CF2A51FC4F1CA006DFCF7 /* StylableLabelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylableLabelMock.swift; sourceTree = "<group>"; };
+		2A2CF2A81FC4F33E006DFCF7 /* StyleStrategyMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleStrategyMock.swift; sourceTree = "<group>"; };
+		2A2CF2AA1FC4FBDD006DFCF7 /* SwiftyStyleInfoProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStyleInfoProtocolTests.swift; sourceTree = "<group>"; };
+		2A2CF2AC1FC52223006DFCF7 /* SwiftyStyleInfoProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStyleInfoProtocolMock.swift; sourceTree = "<group>"; };
+		2A2CF2AE1FC52C11006DFCF7 /* SwiftyStyleProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStyleProtocolTests.swift; sourceTree = "<group>"; };
 		2A539F811FB9330300949A64 /* StyleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleInfo.swift; sourceTree = "<group>"; };
 		2A539F831FB9334100949A64 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		2A539F851FB9336E00949A64 /* SwiftyStyleInfoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStyleInfoProtocol.swift; sourceTree = "<group>"; };
@@ -94,6 +115,7 @@
 		2A7D56E71FB009D200393940 /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
 		2A7D56EB1FB2004A00393940 /* FontSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSet.swift; sourceTree = "<group>"; };
 		2A80515D1FB60407008DE717 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		2AAA244E1FC4DC61001527E4 /* StyleStrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleStrategyTests.swift; sourceTree = "<group>"; };
 		2AC280731FB351E400890178 /* UILabel+Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Stylable.swift"; sourceTree = "<group>"; };
 		2AD64C9D1FB608E40055FCF4 /* UIImageView+Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Stylable.swift"; sourceTree = "<group>"; };
 		2AD64C9F1FB609A10055FCF4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -152,10 +174,32 @@
 			path = "SwiftyStyle-tvOSTests";
 			sourceTree = "<group>";
 		};
+		2A2CF2A41FC4F1AD006DFCF7 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2CF2A51FC4F1CA006DFCF7 /* StylableLabelMock.swift */,
+				2A2CF2A81FC4F33E006DFCF7 /* StyleStrategyMock.swift */,
+				2A2CF2AC1FC52223006DFCF7 /* SwiftyStyleInfoProtocolMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2A2CF2A71FC4F2E5006DFCF7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2AAA244E1FC4DC61001527E4 /* StyleStrategyTests.swift */,
+				2A2CF2A21FC4F184006DFCF7 /* StyleManagerTests.swift */,
+				2A2CF2AA1FC4FBDD006DFCF7 /* SwiftyStyleInfoProtocolTests.swift */,
+				2A2CF2AE1FC52C11006DFCF7 /* SwiftyStyleProtocolTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		2A539F801FB932E700949A64 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				2A539F811FB9330300949A64 /* StyleInfo.swift */,
+				2A6D986C1FA9F84A00749D77 /* StyleManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -200,6 +244,8 @@
 		2A6D98571FA69B9100749D77 /* SwiftyStyleTests */ = {
 			isa = PBXGroup;
 			children = (
+				2A2CF2A71FC4F2E5006DFCF7 /* Tests */,
+				2A2CF2A41FC4F1AD006DFCF7 /* Mocks */,
 				2A6D98581FA69B9100749D77 /* SwiftyStyleTests.swift */,
 				2A1067CA1FB627E100985CF0 /* StyleMap.plist */,
 				2A6D985A1FA69B9100749D77 /* Info.plist */,
@@ -211,7 +257,6 @@
 			isa = PBXGroup;
 			children = (
 				2A6D986A1FA69E2600749D77 /* StyleStrategy.swift */,
-				2A6D986C1FA9F84A00749D77 /* StyleManager.swift */,
 				2A539F831FB9334100949A64 /* Typealias.swift */,
 				2A539F851FB9336E00949A64 /* SwiftyStyleInfoProtocol.swift */,
 				2A539F871FB9339D00949A64 /* SwiftyStyleBasicKeyProtocol.swift */,
@@ -483,18 +528,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2CF2A91FC4F33E006DFCF7 /* StyleStrategyMock.swift in Sources */,
+				2AAA24521FC4DDD4001527E4 /* SwiftyStyleBasicKeyProtocol.swift in Sources */,
 				2A1067BE1FB626CE00985CF0 /* UIView+Extensions.swift in Sources */,
 				2A6D98591FA69B9100749D77 /* SwiftyStyleTests.swift in Sources */,
+				2AAA24571FC4DDE0001527E4 /* StyleInfo.swift in Sources */,
+				2A2CF2AF1FC52C11006DFCF7 /* SwiftyStyleProtocolTests.swift in Sources */,
+				2AAA24511FC4DDD4001527E4 /* SwiftyStyleInfoProtocol.swift in Sources */,
 				2A1067C61FB626D600985CF0 /* StyleStrategy.swift in Sources */,
+				2A2CF2A61FC4F1CA006DFCF7 /* StylableLabelMock.swift in Sources */,
+				2AAA24551FC4DDD4001527E4 /* SwiftyStyleSetRetrieverProtocol.swift in Sources */,
+				2AAA244F1FC4DC61001527E4 /* StyleStrategyTests.swift in Sources */,
+				2AAA24561FC4DDDD001527E4 /* PlistStyleStrategyInfo.swift in Sources */,
 				2A1067C81FB626D900985CF0 /* PlistStyleStrategy.swift in Sources */,
+				2AAA24531FC4DDD4001527E4 /* SwiftyStyleProtocol.swift in Sources */,
 				2A1067BF1FB626CE00985CF0 /* UILabel+Stylable.swift in Sources */,
+				2AAA24501FC4DDD4001527E4 /* Typealias.swift in Sources */,
+				2A2CF2AD1FC52223006DFCF7 /* SwiftyStyleInfoProtocolMock.swift in Sources */,
 				2A1067C11FB626CE00985CF0 /* UIImage+Extensions.swift in Sources */,
 				2A1067C71FB626D600985CF0 /* StyleManager.swift in Sources */,
 				2A1067C41FB626D200985CF0 /* FontSet.swift in Sources */,
 				2A1067C31FB626D200985CF0 /* ColorSet.swift in Sources */,
+				2A2CF2AB1FC4FBDD006DFCF7 /* SwiftyStyleInfoProtocolTests.swift in Sources */,
+				2AAA24541FC4DDD4001527E4 /* SwiftyAdditionalStyleProtocol.swift in Sources */,
 				2A1067BD1FB626CE00985CF0 /* UIButton+Stylable.swift in Sources */,
 				2A1067C01FB626CE00985CF0 /* UIImageView+Stylable.swift in Sources */,
 				2A1067C21FB626D200985CF0 /* StyleSet.swift in Sources */,
+				2A2CF2A31FC4F184006DFCF7 /* StyleManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

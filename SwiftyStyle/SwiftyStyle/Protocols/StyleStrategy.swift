@@ -23,15 +23,20 @@ public protocol StyleStrategy {
 extension StyleStrategy {
     
     /**
-     Useful function for transforming a dictionary into a StyleSet.
+     Useful function for transforming a dictionary into a StyleSet. Use this function for values that must be transformed from an abstract representation into its meaningful value. i.e. transforming a color key as a String into a UIColor
      
      - Parameter properties: [String: Any] containing all property keys -> values
      - Parameter ColorSetType: Optional. If set contains any colors that need to be transformed from String -> UIColor, use a type implementing ColorSetProtocol to perform the conversion
      - Parameter FontSetType: Optional. If set contains any fonts that need to be transformed from String -> UIFont, use a type implementing FontSetProtocol to perform the conversion
+     - Parameter customTransformation: Optional. Performs custom logic for transforming dictionary's value into a value consumable by the StyleSet
      - Returns: A style set converted from dictionary
     */
-    public static func transformDictionaryOfPropertiesIntoStyleSet(properties: [String: Any], ColorSetType: ColorSetProtocol.Type? = nil, FontSetType: FontSetProtocol.Type? = nil) -> StyleSet {
-        let transformedProps =  properties.mapValues({ value -> Any in
+    public static func transformDictionaryOfPropertiesIntoStyleSet(properties: [String: Any], ColorSetType: ColorSetProtocol.Type? = nil, FontSetType: FontSetProtocol.Type? = nil, customTransformation: ((Any) -> Any?)? = nil) -> StyleSet {
+        
+        //Map over values to apply transformations
+        let transformedProps = properties.mapValues({ value -> Any in
+            
+            //Attempt to transform string values into colors and fonts using ColorSetProtocol and FontSetProtocol
             if let str = value as? String {
                 if let c = ColorSetType?.init(rawValue: str) {
                     return c.color
@@ -40,6 +45,12 @@ extension StyleStrategy {
                     return f.font
                 }
             }
+            
+            //if given transformation, apply to given value. If operation returns an object, return that object. if nil, continue on.
+            if let transform = customTransformation, let customValue = transform(value) {
+                return customValue
+            }
+            
             return value
         })
         

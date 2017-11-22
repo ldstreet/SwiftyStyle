@@ -23,18 +23,24 @@ public class StyleManager {
     //Observer horizontal size lcass
     private var horizontalSizeClassObserver: NSKeyValueObservation?
     
+    public var listeningForSizeClassChanges: Bool = false
+    
     /**
      Singleton
     */
-    public var shared = StyleManager()
+    public static let shared = StyleManager()
     
     //Private init to make true singleton
     private init() {
-        verticalSizeClassObserver = UIApplication.shared.keyWindow?.rootViewController?.traitCollection.observe(\.verticalSizeClass) { vc, change in
-            StyleManager.styleAllControls()
+        verticalSizeClassObserver = UIApplication.shared.keyWindow?.rootViewController?.traitCollection.observe(\.verticalSizeClass) { [weak self] vc, change in
+            if self?.listeningForSizeClassChanges == true {
+                StyleManager.styleAllControls()
+            }
         }
-        horizontalSizeClassObserver = UIApplication.shared.keyWindow?.rootViewController?.traitCollection.observe(\.horizontalSizeClass) { vc, change in
-            StyleManager.styleAllControls()
+        horizontalSizeClassObserver = UIApplication.shared.keyWindow?.rootViewController?.traitCollection.observe(\.horizontalSizeClass) { [weak self] vc, change in
+            if self?.listeningForSizeClassChanges == true {
+                StyleManager.styleAllControls()
+            }
         }
     }
     

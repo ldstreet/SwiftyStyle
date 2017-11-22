@@ -28,13 +28,13 @@ extension SwiftyStyleInfoProtocol {
     */
     public var styleKey: String? {
         get {
-            if let stylable = self as? SwiftyStyleProtocol {
+            if let stylable = self as? SwiftyStyleProtocol & SwiftyStyleInfoProtocol {
                 styleInfo.attach(stylable: stylable)
             }
             return styleInfo.styleKey
         }
         set {
-            if let stylable = self as? SwiftyStyleProtocol {
+            if let stylable = self as? SwiftyStyleProtocol & SwiftyStyleInfoProtocol {
                 styleInfo.attach(stylable: stylable)
             }
             styleInfo.styleKey = newValue

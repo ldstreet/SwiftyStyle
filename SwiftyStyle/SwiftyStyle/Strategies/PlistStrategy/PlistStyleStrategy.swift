@@ -30,6 +30,10 @@ public class PlistStyleStrategyBase {
      - Remark: For now, bundles are loaded into memory on set, they are not reloaded dynamically. To update PlistStyleStrategyInfo, call this function when/if plist is changed
      */
     public static func setPlist(forType type: StylePlistType, plistName name: String, bundle: Bundle = Bundle.main) {
+        
+        // TODO: Determine if this is a clean solution for turning on size class change listener
+        StyleManager.shared.listeningForSizeClassChanges = true
+        
         plistStyleStrategyInfo.setPlist(forType: type, plistName: name, bundle: bundle)
     }
 }

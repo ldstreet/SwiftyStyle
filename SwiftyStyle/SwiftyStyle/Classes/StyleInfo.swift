@@ -21,12 +21,12 @@ public class StyleInfo {
     /**
      Weak reference back to stylable control for re-styling on events recieved from StyleManager
     */
-    private weak var stylable: SwiftyStyleProtocol?
+    private weak var stylable: (SwiftyStyleProtocol & SwiftyStyleInfoProtocol)?
     
     /**
      Used to attach stylable to control for re-styling
     */
-    internal func attach(stylable: SwiftyStyleProtocol) {
+    internal func attach(stylable: SwiftyStyleProtocol & SwiftyStyleInfoProtocol) {
         if self.stylable == nil {
             self.stylable = stylable
         }
@@ -42,7 +42,7 @@ public class StyleInfo {
     }
     
     /**
-     On denite remove observer for re-style events
+     On denit remove observer for re-style events
     */
     deinit {
         StyleManager.swiftyStyleNotificationManager.removeObserver(self)

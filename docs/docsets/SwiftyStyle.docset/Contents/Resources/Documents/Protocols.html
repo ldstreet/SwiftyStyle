@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">SwiftyStyle Docs</a> (64% documented)</p>
+        <p class="header-right"><a href="https://github.com/ldstreet/SwiftyStyle.git"><img src="img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">SwiftyStyle Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/PlistStyleStrategy.html">PlistStyleStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PlistStyleStrategyBase.html">PlistStyleStrategyBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/StyleInfo.html">StyleInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/StyleManager.html">StyleManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/PreferredFontSet.html">PreferredFontSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/StylePlistType.html">StylePlistType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/StyleProperty.html">StyleProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SystemFontSet.html">SystemFontSet</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/ColorSetProtocol.html">ColorSetProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/FontSetProtocol.html">FontSetProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StylePropertyProtocol.html">StylePropertyProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StyleStrategy.html">StyleStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SwiftyAdditionalStyleProtocol.html">SwiftyAdditionalStyleProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SwiftyStyleBasicKeyProtocol.html">SwiftyStyleBasicKeyProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SwiftyStyleInfoProtocol.html">SwiftyStyleInfoProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SwiftyStyleProtocol.html">SwiftyStyleProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SwiftyStyleSetRetrieverProtocol.html">SwiftyStyleSetRetrieverProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/CustomFontSet.html">CustomFontSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/HexColorSet.html">HexColorSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StyleSet.html">StyleSet</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11SwiftyStyle8Stylablea">Stylable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11SwiftyStyle18StylableAdditionala">StylableAdditional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11SwiftyStyle12StylableBasea">StylableBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11SwiftyStyle13StylableBasica">StylableBasic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11SwiftyStyle17StylableExtensiona">StylableExtension</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0aB16BasicKeyProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/SwiftyStyleBasicKeyProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0aB16BasicKeyProtocolP">SwiftyStyleBasicKeyProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol if your control does not need to be re-styled
+throughout the app&rsquo;s lifecycle. When conforming to this protocol, style() will
+be called only once when the the styleKey is set.</p>
+
+                        <a href="Protocols/SwiftyStyleBasicKeyProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SwiftyStyleBasicKeyProtocol</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0aB12InfoProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/SwiftyStyleInfoProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0aB12InfoProtocolP">SwiftyStyleInfoProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol in a base class in order to add stored info needed for styling
+If your control needs to be re-styled throughout the app&rsquo;s lifecycle, use this protocol</p>
+
+                        <a href="Protocols/SwiftyStyleInfoProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SwiftyStyleInfoProtocol</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0aB8ProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/SwiftyStyleProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0aB8ProtocolP">SwiftyStyleProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol to define how a control should be styled given a key and a StyleSet</p>
+
+                        <a href="Protocols/SwiftyStyleProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SwiftyStyleProtocol</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle16ColorSetProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/ColorSetProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle16ColorSetProtocolP">ColorSetProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/ColorSetProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ColorSetProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0B8StrategyP"></a>
+                    <a name="//apple_ref/swift/Protocol/StyleStrategy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0B8StrategyP">StyleStrategy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to style strategy to define how your UI controls should retrieve their style sets. This could</p>
+
+                        <a href="Protocols/StyleStrategy.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">StyleStrategy</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle15FontSetProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/FontSetProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle15FontSetProtocolP">FontSetProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/FontSetProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">FontSetProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0B16PropertyProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/StylePropertyProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0B16PropertyProtocolP">StylePropertyProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol in order to interact with StyleSet</p>
+
+                        <a href="Protocols/StylePropertyProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">StylePropertyProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0a10AdditionalB8ProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/SwiftyAdditionalStyleProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0a10AdditionalB8ProtocolP">SwiftyAdditionalStyleProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol for any additional styling not covered by default style() functions. If you are doing something special with a control that already conforms to SwiftyStyleProtocol then use this protocol to do additional stlying. additionalStyle(styleSet: StyleSet) will be</p>
+
+                        <a href="Protocols/SwiftyAdditionalStyleProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SwiftyAdditionalStyleProtocol</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11SwiftyStyle0aB20SetRetrieverProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/SwiftyStyleSetRetrieverProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwiftyStyle0aB20SetRetrieverProtocolP">SwiftyStyleSetRetrieverProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol to set what strategy will be used to retrieve a style set</p>
+
+                        <a href="Protocols/SwiftyStyleSetRetrieverProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SwiftyStyleSetRetrieverProtocol</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external">Luke Street</a>. All rights reserved. (Last updated: 2017-11-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

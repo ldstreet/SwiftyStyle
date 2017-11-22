@@ -45,6 +45,12 @@ class StyleStrategyTests: XCTestCase {
         let dict: [String : Any] = ["borderWidth": CGFloat(12.0),
                                     "borderColor": "00ff00",
                                     "font": "body",
+                                    "fontSize": CGFloat(10.0),
+                                    "textColor": ff0000,
+                                    "tintColor": "ff0000",
+                                    "backgroundColor": "ff0000",
+                                    "fontSize": CGFloat(10.0),
+                                    "fontSize": CGFloat(10.0),
                                     "Double": 10.0,
                                     "NonDouble": CGFloat(10.0)]
         let complexSet = StyleStrategyMock.transformDictionaryOfPropertiesIntoStyleSet(properties: dict, ColorSetType: HexColorSet.self, FontSetType: PreferredFontSet.self) { value in
@@ -53,6 +59,7 @@ class StyleStrategyTests: XCTestCase {
             }
             return nil
         }
+        complexSet.
         XCTAssertEqual(complexSet[.borderWidth], CGFloat(12.0))
         XCTAssertEqual(complexSet[.borderColor], UIColor.green)
         XCTAssertEqual(complexSet[.font], UIFont.preferredFont(forTextStyle: .body))

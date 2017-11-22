@@ -59,7 +59,6 @@ class StyleStrategyTests: XCTestCase {
             }
             return nil
         }
-        complexSet.
         XCTAssertEqual(complexSet[.borderWidth], CGFloat(12.0))
         XCTAssertEqual(complexSet[.borderColor], UIColor.green)
         XCTAssertEqual(complexSet[.font], UIFont.preferredFont(forTextStyle: .body))

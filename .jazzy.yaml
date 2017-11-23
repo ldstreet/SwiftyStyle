@@ -1,0 +1,7 @@
+author: Luke Street
+github_url: https://github.com/ldstreet/SwiftyStyle.git
+root_url: https://ldstreet.github.io/SwiftyStyle/
+module: SwiftyStyle
+source_directory: ./SwiftyStyle
+output: docs
+readme: 'README.md'

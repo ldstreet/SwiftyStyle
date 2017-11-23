@@ -8,13 +8,13 @@
 
 import Foundation
 
-class StyleStrategyMock: StyleStrategy {
+public class StyleStrategyMock: StyleStrategy {
     
     internal static var retrievedDictionary: [String: Any]?
     internal static var retrieveStyleSetCount = 0
     
     
-    internal static func retrieveStyleSet(forStyleKey styleKey: String) -> StyleSet? {
+    public static func retrieveStyleSet(forStyleKey styleKey: String) -> StyleSet? {
         retrieveStyleSetCount += 1
         
         guard styleKey != "No style key" else { return nil }

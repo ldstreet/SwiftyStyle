@@ -78,7 +78,11 @@ public enum SystemFontSet: String, FontSetProtocol {
  */
 public enum PreferredFontSet: String, FontSetProtocol {
     
-    case body, callout, caption1, caption2, footnote, headline, subheadline, largeTitle, title1, title2, title3
+    case body, callout, caption1, caption2, footnote, headline, subheadline, title1, title2, title3
+    
+    //@available(iOS 11.0, *)
+    case largeTitle
+    
     
     public var font: UIFont {
         switch self {
@@ -97,7 +101,11 @@ public enum PreferredFontSet: String, FontSetProtocol {
         case .subheadline:
             return UIFont.preferredFont(forTextStyle: .subheadline)
         case .largeTitle:
-            return UIFont.preferredFont(forTextStyle: .largeTitle)
+            if #available(iOS 11.0, *) {
+                return UIFont.preferredFont(forTextStyle: .largeTitle)
+            } else {
+                return UIFont.preferredFont(forTextStyle: .title1)
+            }
         case .title1:
             return UIFont.preferredFont(forTextStyle: .title1)
         case .title2:

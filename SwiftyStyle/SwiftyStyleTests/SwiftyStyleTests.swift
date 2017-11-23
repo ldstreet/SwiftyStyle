@@ -14,10 +14,10 @@ typealias PlistStrategy = PlistStyleStrategy<HexColorSet, PreferredFontSet>
 
 class SwiftyStyleTests: XCTestCase {
     
-    class LSButton: UIButton, Stylable {
-        var styleInfo = StyleInfo()
-        typealias Strategy = PlistStrategy
-    }
+//    class LSButton: UIButton, Stylable {
+//        var styleInfo = StyleInfo()
+//        typealias Strategy = PlistStrategy
+//    }
     
     override func setUp() {
         super.setUp()
@@ -30,8 +30,8 @@ class SwiftyStyleTests: XCTestCase {
     }
     
     func testExample() {
-        let button = LSButton()
-        button.styleKey = "StyleOne"
+        //let button = LSButton()
+        //button.styleKey = "StyleOne"
     }
     
     func testPerformanceExample() {

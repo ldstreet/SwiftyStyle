@@ -56,6 +56,9 @@
 		2AAA24551FC4DDD4001527E4 /* SwiftyStyleSetRetrieverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F8D1FB9340D00949A64 /* SwiftyStyleSetRetrieverProtocol.swift */; };
 		2AAA24561FC4DDDD001527E4 /* PlistStyleStrategyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE4B4151FC2A8C300620A58 /* PlistStyleStrategyInfo.swift */; };
 		2AAA24571FC4DDE0001527E4 /* StyleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A539F811FB9330300949A64 /* StyleInfo.swift */; };
+		2ABD94101FD6FFFB004379A5 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF348F1FD66DE8004A21BE /* UIApplication+Extensions.swift */; };
+		2ABD94111FD6FFFE004379A5 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF348F1FD66DE8004A21BE /* UIApplication+Extensions.swift */; };
+		2ABD94121FD6FFFF004379A5 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF348F1FD66DE8004A21BE /* UIApplication+Extensions.swift */; };
 		2ABF35681FC63CC400CD653C /* BaseStyleImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF35671FC63CC400CD653C /* BaseStyleImplementationTests.swift */; };
 		2AC280741FB351E400890178 /* UILabel+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC280731FB351E400890178 /* UILabel+Stylable.swift */; };
 		2AD64C9E1FB608E40055FCF4 /* UIImageView+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD64C9D1FB608E40055FCF4 /* UIImageView+Stylable.swift */; };
@@ -493,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABD94111FD6FFFE004379A5 /* UIApplication+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABD94121FD6FFFF004379A5 /* UIApplication+Extensions.swift in Sources */,
 				2A1067E01FB6538000985CF0 /* SwiftyStyle_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +556,7 @@
 				2AAA24531FC4DDD4001527E4 /* SwiftyStyleProtocol.swift in Sources */,
 				2A1067BF1FB626CE00985CF0 /* UILabel+Stylable.swift in Sources */,
 				2AAA24501FC4DDD4001527E4 /* Typealias.swift in Sources */,
+				2ABD94101FD6FFFB004379A5 /* UIApplication+Extensions.swift in Sources */,
 				2A2CF2AD1FC52223006DFCF7 /* SwiftyStyleInfoProtocolMock.swift in Sources */,
 				2A1067C11FB626CE00985CF0 /* UIImage+Extensions.swift in Sources */,
 				2ABF35681FC63CC400CD653C /* BaseStyleImplementationTests.swift in Sources */,
@@ -631,6 +637,7 @@
 		2A1067E71FB6538000985CF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9C9LVX9RE8;
 				INFOPLIST_FILE = "SwiftyStyle-tvOSTests/Info.plist";
@@ -647,6 +654,7 @@
 		2A1067E81FB6538000985CF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9C9LVX9RE8;
 				INFOPLIST_FILE = "SwiftyStyle-tvOSTests/Info.plist";

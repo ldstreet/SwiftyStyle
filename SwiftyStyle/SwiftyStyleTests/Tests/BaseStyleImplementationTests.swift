@@ -50,7 +50,6 @@ class BaseStyleImplementationTests: XCTestCase {
         XCTAssertEqual(button.titleColor(for: .normal), .red)
         XCTAssertEqual(button.titleColor(for: .disabled), .green)
         XCTAssertEqual(button.titleColor(for: .selected), .blue)
-        XCTAssertEqual(button.titleColor(for: .highlighted), .purple)
         XCTAssertEqual(button.layer.borderWidth, CGFloat(12.0))
         XCTAssertEqual(button.layer.borderWidth, CGFloat(12.0))
         XCTAssertEqual(button.layer.borderWidth, CGFloat(12.0))

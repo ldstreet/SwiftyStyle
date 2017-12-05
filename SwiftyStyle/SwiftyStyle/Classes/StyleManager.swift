@@ -30,14 +30,14 @@ public class StyleManager {
     */
     public static let shared = StyleManager()
     
-    //Private init to make true singleton
-    private init() {
-        verticalSizeClassObserver = UIApplication.shared.keyWindow?.rootViewController?.traitCollection.observe(\.verticalSizeClass) { [weak self] vc, change in
+    //Public init for easy mocking
+    public init() {
+        verticalSizeClassObserver = UIApplication.shared.windows.first?.rootViewController?.traitCollection.observe(\.verticalSizeClass) { [weak self] vc, change in
             if self?.listeningForSizeClassChanges == true {
                 StyleManager.styleAllControls()
             }
         }
-        horizontalSizeClassObserver = UIApplication.shared.keyWindow?.rootViewController?.traitCollection.observe(\.horizontalSizeClass) { [weak self] vc, change in
+        horizontalSizeClassObserver = UIApplication.shared.windows.first?.rootViewController?.traitCollection.observe(\.horizontalSizeClass) { [weak self] vc, change in
             if self?.listeningForSizeClassChanges == true {
                 StyleManager.styleAllControls()
             }

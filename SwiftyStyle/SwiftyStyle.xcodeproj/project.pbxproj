@@ -61,6 +61,7 @@
 		2AD64C9E1FB608E40055FCF4 /* UIImageView+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD64C9D1FB608E40055FCF4 /* UIImageView+Stylable.swift */; };
 		2AD64CA01FB609A10055FCF4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD64C9F1FB609A10055FCF4 /* UIView+Extensions.swift */; };
 		2AE4B4161FC2A8C300620A58 /* PlistStyleStrategyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE4B4151FC2A8C300620A58 /* PlistStyleStrategyInfo.swift */; };
+		2AFF34901FD66DE8004A21BE /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF348F1FD66DE8004A21BE /* UIApplication+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		2AD64C9D1FB608E40055FCF4 /* UIImageView+Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Stylable.swift"; sourceTree = "<group>"; };
 		2AD64C9F1FB609A10055FCF4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		2AE4B4151FC2A8C300620A58 /* PlistStyleStrategyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistStyleStrategyInfo.swift; sourceTree = "<group>"; };
+		2AFF348F1FD66DE8004A21BE /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 				2AC280731FB351E400890178 /* UILabel+Stylable.swift */,
 				2AD64C9D1FB608E40055FCF4 /* UIImageView+Stylable.swift */,
 				2A80515D1FB60407008DE717 /* UIImage+Extensions.swift */,
+				2AFF348F1FD66DE8004A21BE /* UIApplication+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				2A539F8A1FB933B500949A64 /* SwiftyStyleProtocol.swift in Sources */,
 				2A7D56E81FB009D200393940 /* ColorSet.swift in Sources */,
 				2A539F841FB9334100949A64 /* Typealias.swift in Sources */,
+				2AFF34901FD66DE8004A21BE /* UIApplication+Extensions.swift in Sources */,
 				2A6D986B1FA69E2600749D77 /* StyleStrategy.swift in Sources */,
 				2A7D56EC1FB2004A00393940 /* FontSet.swift in Sources */,
 				2A6D986D1FA9F84A00749D77 /* StyleManager.swift in Sources */,

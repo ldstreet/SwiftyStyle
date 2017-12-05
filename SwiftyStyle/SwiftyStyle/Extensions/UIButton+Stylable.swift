@@ -82,7 +82,7 @@ extension SwiftyStyleProtocol where Self: UIButton {
             self.titleLabel?.font = font
         }
         if let fontSize: CGFloat = styleSet[.fontSize] {
-            self.titleLabel?.font = UIFont(name: self.titleLabel?.font.fontName ?? "", size: fontSize) ?? self.titleLabel?.font
+            self.titleLabel?.font = self.titleLabel?.font.withSize(fontSize)
         }
         if let borderWidth: CGFloat = styleSet[.borderWidth] {
             self.layer.borderWidth = borderWidth

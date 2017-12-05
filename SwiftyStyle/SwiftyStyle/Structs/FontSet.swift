@@ -87,31 +87,31 @@ public enum PreferredFontSet: String, FontSetProtocol {
     public var font: UIFont {
         switch self {
         case .body:
-            return UIFont.preferredFont(forTextStyle: .body)
+            return UIFont.preferredFont(forTextStyle: .body, compatibleWith: UIApplication.shared.traitCollection)
         case .callout:
-            return UIFont.preferredFont(forTextStyle: .callout)
+            return UIFont.preferredFont(forTextStyle: .callout, compatibleWith: UIApplication.shared.traitCollection)
         case .caption1:
-            return UIFont.preferredFont(forTextStyle: .caption1)
+            return UIFont.preferredFont(forTextStyle: .caption1, compatibleWith: UIApplication.shared.traitCollection)
         case .caption2:
-            return UIFont.preferredFont(forTextStyle: .caption2)
+            return UIFont.preferredFont(forTextStyle: .caption2, compatibleWith: UIApplication.shared.traitCollection)
         case .footnote:
-            return UIFont.preferredFont(forTextStyle: .footnote)
+            return UIFont.preferredFont(forTextStyle: .footnote, compatibleWith: UIApplication.shared.traitCollection)
         case .headline:
-            return UIFont.preferredFont(forTextStyle: .headline)
+            return UIFont.preferredFont(forTextStyle: .headline, compatibleWith: UIApplication.shared.traitCollection)
         case .subheadline:
-            return UIFont.preferredFont(forTextStyle: .subheadline)
+            return UIFont.preferredFont(forTextStyle: .subheadline, compatibleWith: UIApplication.shared.traitCollection)
         case .largeTitle:
             if #available(iOS 11.0, *) {
-                return UIFont.preferredFont(forTextStyle: .largeTitle)
+                return UIFont.preferredFont(forTextStyle: .largeTitle, compatibleWith: UIApplication.shared.traitCollection)
             } else {
-                return UIFont.preferredFont(forTextStyle: .title1)
+                return UIFont.preferredFont(forTextStyle: .title1, compatibleWith: UIApplication.shared.traitCollection)
             }
         case .title1:
-            return UIFont.preferredFont(forTextStyle: .title1)
+            return UIFont.preferredFont(forTextStyle: .title1, compatibleWith: UIApplication.shared.traitCollection)
         case .title2:
-            return UIFont.preferredFont(forTextStyle: .title2)
+            return UIFont.preferredFont(forTextStyle: .title2, compatibleWith: UIApplication.shared.traitCollection)
         case .title3:
-            return UIFont.preferredFont(forTextStyle: .title3)
+            return UIFont.preferredFont(forTextStyle: .title3, compatibleWith: UIApplication.shared.traitCollection)
         }
     }
 }

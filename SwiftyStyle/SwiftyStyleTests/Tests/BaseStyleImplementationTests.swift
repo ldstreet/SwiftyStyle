@@ -60,5 +60,6 @@ class BaseStyleImplementationTests: XCTestCase {
 }
 
 extension UIButton: StylableBasic {
+    
     public typealias Strategy = StyleStrategyMock
 }

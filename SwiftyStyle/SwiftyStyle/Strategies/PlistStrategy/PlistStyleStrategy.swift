@@ -46,7 +46,7 @@ final public class PlistStyleStrategy<ColorSet: ColorSetProtocol, FontSet: FontS
     /**
      Retreives StyleSet based on styleKey using current size classes to pick appropriate set
     */
-    public static func retrieveStyleSet(forStyleKey styleKey: String) -> StyleSet? {
+    public static func retrieveStyleSet(forStyleKey styleKey: StyleKeyProtocol) -> StyleSet? {
         
         //Properties to be loaded in from plist
         var properties: [String: Any]?
@@ -57,22 +57,22 @@ final public class PlistStyleStrategy<ColorSet: ColorSetProtocol, FontSet: FontS
             
             switch (verticalSizeClass, horizontalSizeClass) {
             case (.regular, .regular):
-                if let props = plistStyleStrategyInfo.regularRegularPlist?[styleKey] {
+                if let props = plistStyleStrategyInfo.regularRegularPlist?[styleKey.rawValue] {
                     properties = props
                 }
                 break
             case (.regular, .compact):
-                if let props = plistStyleStrategyInfo.regularCompactPlist?[styleKey] {
+                if let props = plistStyleStrategyInfo.regularCompactPlist?[styleKey.rawValue] {
                     properties = props
                 }
                 break
             case (.compact, .compact):
-                if let props = plistStyleStrategyInfo.compactCompactPlist?[styleKey] {
+                if let props = plistStyleStrategyInfo.compactCompactPlist?[styleKey.rawValue] {
                     properties = props
                 }
                 break
             case (.compact, .regular):
-                if let props = plistStyleStrategyInfo.compactRegularPlist?[styleKey] {
+                if let props = plistStyleStrategyInfo.compactRegularPlist?[styleKey.rawValue] {
                     properties = props
                 }
                 break
@@ -83,7 +83,7 @@ final public class PlistStyleStrategy<ColorSet: ColorSetProtocol, FontSet: FontS
         
         //If no matching plist for current size class, use default plist
         if properties == nil {
-            guard let props = plistStyleStrategyInfo.defaultPlist?[styleKey] else {
+            guard let props = plistStyleStrategyInfo.defaultPlist?[styleKey.rawValue] else {
                 return nil
             }
             properties = props

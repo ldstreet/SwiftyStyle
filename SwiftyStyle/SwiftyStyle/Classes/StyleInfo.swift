@@ -16,7 +16,7 @@ public class StyleInfo {
     /**
      Style key stored and used for re-styling
     */
-    internal var styleKey: String?
+    internal var styleKey: StyleKeyProtocol?
     
     /**
      Weak reference back to stylable control for re-styling on events recieved from StyleManager

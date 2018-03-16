@@ -16,7 +16,7 @@ public protocol StyleStrategy {
     /**
      Defines how to retrieve a StyleSet using a styleKey. i.e. retrieve from plist, json, user defaults, programmatic definition. Source of style sets could be included at compile time or downloaded at run time, or updated dynamically throughout lifecycle of app.
     */
-    static func retrieveStyleSet(forStyleKey styleKey: String) -> StyleSet?
+    static func retrieveStyleSet(forStyleKey styleKey: StyleKeyProtocol) -> StyleSet?
     
 }
 

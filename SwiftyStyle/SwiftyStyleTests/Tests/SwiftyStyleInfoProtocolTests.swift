@@ -14,8 +14,8 @@ class SwiftyStyleInfoProtocolTests: XCTestCase {
     func testStyleKey() {
         let stylableLabel = StylableLabelMock()
         stylableLabel.styleKey = "someKey"
-        XCTAssertEqual(stylableLabel.styleInfo.styleKey, "someKey")
-        stylableLabel.styleInfo.styleKey = "anotherKey"
-        XCTAssertEqual(stylableLabel.styleKey, "anotherKey")
+        XCTAssertEqual(stylableLabel.styleInfo.styleKey?.rawValue, "someKey")
+        stylableLabel.styleInfo.styleKey? = "anotherKey"
+        XCTAssertEqual(stylableLabel.styleKey?.rawValue, "anotherKey")
     }
 }

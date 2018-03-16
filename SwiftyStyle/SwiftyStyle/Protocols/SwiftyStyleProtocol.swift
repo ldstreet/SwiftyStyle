@@ -21,7 +21,7 @@ public protocol SwiftyStyleProtocol: class {
     /**
      Defines how a style can be retrieved given a key. If control also conforms to SwiftyStyleSetRetrieverProtocol, then there is no need to implement style(as key: String)
     */
-    func style(as key: String)
+    func style(as key: StyleKeyProtocol)
     
 }
 
@@ -41,7 +41,7 @@ extension SwiftyStyleProtocol where Self: SwiftyStyleSetRetrieverProtocol {
     /**
      Default implementation for style(as key: String) when control also conforms to SwiftyStyleSetRetrieverProtocol. Uses given key to attempt to retrieve styleSet as defined by protocol. After styling with retrieved set, do any additional styling if control conforms to SwiftyAdditionalStyleProtocol
     */
-    public func style(as key: String) {
+    public func style(as key: StyleKeyProtocol) {
         
         if let set = styleSet(key: key) {
             

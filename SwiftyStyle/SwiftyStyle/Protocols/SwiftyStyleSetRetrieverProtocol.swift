@@ -25,7 +25,7 @@ extension SwiftyStyleSetRetrieverProtocol {
     /**
      Uses specified StyleStrategy to retrieve a StyleSet given a key.
     */
-    public func styleSet(key: String) -> StyleSet? {
+    public func styleSet(key: StyleKeyProtocol) -> StyleSet? {
         return Strategy.retrieveStyleSet(forStyleKey: key)
     }
     

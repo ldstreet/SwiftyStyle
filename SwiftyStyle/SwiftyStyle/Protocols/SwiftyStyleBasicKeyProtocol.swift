@@ -18,6 +18,6 @@ public protocol SwiftyStyleBasicKeyProtocol: class {
     /**
      **This key will not be stored with the control when using default implementation provided in UIView extension.** On set, control will be styled using SwiftyStyleProtocol. On get, nil will always be returned.
     */
-    var styleKey: String? { get set }
+    var styleKey: StyleKeyProtocol? { get set }
     
 }

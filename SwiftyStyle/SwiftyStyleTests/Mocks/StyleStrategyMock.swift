@@ -14,10 +14,10 @@ public class StyleStrategyMock: StyleStrategy {
     internal static var retrieveStyleSetCount = 0
     
     
-    public static func retrieveStyleSet(forStyleKey styleKey: String) -> StyleSet? {
+    public static func retrieveStyleSet(forStyleKey styleKey: StyleKeyProtocol) -> StyleSet? {
         retrieveStyleSetCount += 1
         
-        guard styleKey != "No style key" else { return nil }
+        guard styleKey.rawValue != "No style key" else { return nil }
         
         guard let dict = retrievedDictionary else { return nil }
         

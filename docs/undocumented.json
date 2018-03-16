@@ -15,6 +15,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Classes/StyleManager.swift",
+      "line": 34,
+      "symbol": "StyleManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Protocols/StyleKeyProtocol.swift",
+      "line": 15,
+      "symbol": "StyleKeyProtocol.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift",
       "line": 15,
       "symbol": "StylePlistType.defaultPlist",

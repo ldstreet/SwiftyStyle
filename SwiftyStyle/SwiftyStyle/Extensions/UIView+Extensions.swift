@@ -13,7 +13,7 @@ extension UIView {
     /**
      Inspecatble styleKey that can be used on any stylable control. If view conforms to SwiftyStyleInfoProtocol, stlye using key. If view conforms to  SwiftyStyleBasicKeyProtocol, style only on set
     */
-    @IBInspectable public var styleKey: String? {
+    public var styleKey: StyleKeyProtocol? {
         get {
             if let info = self as? SwiftyStyleInfoProtocol {
                 return info.styleKey

@@ -248,13 +248,6 @@
     {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
       "line": 81,
-      "symbol": "PreferredFontSet.largeTitle",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
-      "line": 81,
       "symbol": "PreferredFontSet.subheadline",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -282,7 +275,14 @@
     },
     {
       "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
-      "line": 83,
+      "line": 84,
+      "symbol": "PreferredFontSet.largeTitle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ldstreet/Xcode Apps/SwiftyStyle/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift",
+      "line": 87,
       "symbol": "PreferredFontSet.font",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"

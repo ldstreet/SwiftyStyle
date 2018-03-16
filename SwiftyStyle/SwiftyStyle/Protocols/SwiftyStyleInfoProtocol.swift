@@ -26,7 +26,7 @@ extension SwiftyStyleInfoProtocol {
     /**
      Computed property to expose styleKey outside of module, On get/set attach control to StyleInfo to start listening for re-style events
     */
-    public var styleKey: String? {
+    public var styleKey: StyleKeyProtocol? {
         get {
             if let stylable = self as? SwiftyStyleProtocol & SwiftyStyleInfoProtocol {
                 styleInfo.attach(stylable: stylable)

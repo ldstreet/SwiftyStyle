@@ -42,6 +42,7 @@
 		2A6D98691FA69C6F00749D77 /* StyleSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D98681FA69C6F00749D77 /* StyleSet.swift */; };
 		2A6D986B1FA69E2600749D77 /* StyleStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D986A1FA69E2600749D77 /* StyleStrategy.swift */; };
 		2A6D986D1FA9F84A00749D77 /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D986C1FA9F84A00749D77 /* StyleManager.swift */; };
+		2A6DBBAB205C28520020698F /* StyleKeyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DBBAA205C28520020698F /* StyleKeyProtocol.swift */; };
 		2A7D56E31FAD59F900393940 /* UIButton+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E21FAD59F900393940 /* UIButton+Stylable.swift */; };
 		2A7D56E61FAFC54B00393940 /* PlistStyleStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E51FAFC54B00393940 /* PlistStyleStrategy.swift */; };
 		2A7D56E81FB009D200393940 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E71FB009D200393940 /* ColorSet.swift */; };
@@ -114,6 +115,7 @@
 		2A6D98681FA69C6F00749D77 /* StyleSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSet.swift; sourceTree = "<group>"; };
 		2A6D986A1FA69E2600749D77 /* StyleStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleStrategy.swift; sourceTree = "<group>"; };
 		2A6D986C1FA9F84A00749D77 /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		2A6DBBAA205C28520020698F /* StyleKeyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleKeyProtocol.swift; sourceTree = "<group>"; };
 		2A7D56E01FAD55CE00393940 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2A7D56E21FAD59F900393940 /* UIButton+Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Stylable.swift"; sourceTree = "<group>"; };
 		2A7D56E51FAFC54B00393940 /* PlistStyleStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistStyleStrategy.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				2A539F891FB933B500949A64 /* SwiftyStyleProtocol.swift */,
 				2A539F8B1FB933D400949A64 /* SwiftyAdditionalStyleProtocol.swift */,
 				2A539F8D1FB9340D00949A64 /* SwiftyStyleSetRetrieverProtocol.swift */,
+				2A6DBBAA205C28520020698F /* StyleKeyProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -526,6 +529,7 @@
 				2AFF34901FD66DE8004A21BE /* UIApplication+Extensions.swift in Sources */,
 				2A6D986B1FA69E2600749D77 /* StyleStrategy.swift in Sources */,
 				2A7D56EC1FB2004A00393940 /* FontSet.swift in Sources */,
+				2A6DBBAB205C28520020698F /* StyleKeyProtocol.swift in Sources */,
 				2A6D986D1FA9F84A00749D77 /* StyleManager.swift in Sources */,
 				2A6D98691FA69C6F00749D77 /* StyleSet.swift in Sources */,
 				2A539F8C1FB933D400949A64 /* SwiftyAdditionalStyleProtocol.swift in Sources */,

@@ -43,6 +43,7 @@
 		2A6D986B1FA69E2600749D77 /* StyleStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D986A1FA69E2600749D77 /* StyleStrategy.swift */; };
 		2A6D986D1FA9F84A00749D77 /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D986C1FA9F84A00749D77 /* StyleManager.swift */; };
 		2A6DBBAB205C28520020698F /* StyleKeyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DBBAA205C28520020698F /* StyleKeyProtocol.swift */; };
+		2A6DBBAC205CA0B20020698F /* StyleKeyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DBBAA205C28520020698F /* StyleKeyProtocol.swift */; };
 		2A7D56E31FAD59F900393940 /* UIButton+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E21FAD59F900393940 /* UIButton+Stylable.swift */; };
 		2A7D56E61FAFC54B00393940 /* PlistStyleStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E51FAFC54B00393940 /* PlistStyleStrategy.swift */; };
 		2A7D56E81FB009D200393940 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D56E71FB009D200393940 /* ColorSet.swift */; };
@@ -569,6 +570,7 @@
 				2A1067C31FB626D200985CF0 /* ColorSet.swift in Sources */,
 				2A2CF2AB1FC4FBDD006DFCF7 /* SwiftyStyleInfoProtocolTests.swift in Sources */,
 				2AAA24541FC4DDD4001527E4 /* SwiftyAdditionalStyleProtocol.swift in Sources */,
+				2A6DBBAC205CA0B20020698F /* StyleKeyProtocol.swift in Sources */,
 				2A1067BD1FB626CE00985CF0 /* UIButton+Stylable.swift in Sources */,
 				2A1067C01FB626CE00985CF0 /* UIImageView+Stylable.swift in Sources */,
 				2A1067C21FB626D200985CF0 /* StyleSet.swift in Sources */,

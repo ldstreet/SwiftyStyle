@@ -37,6 +37,9 @@ extension SwiftyStyleInfoProtocol {
             if let stylable = self as? SwiftyStyleProtocol & SwiftyStyleInfoProtocol {
                 styleInfo.attach(stylable: stylable)
             }
+            if let key = newValue {
+                (self as? SwiftyStyleProtocol)?.style(as: key)
+            }
             styleInfo.styleKey = newValue
         }
     }

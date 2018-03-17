@@ -8,6 +8,26 @@
 
 import UIKit
 
+extension UIButton {
+    /**
+     Inspectable styleKey that can be used on any stylable control. If view conforms to SwiftyStyleInfoProtocol, stlye using key. If view conforms to  SwiftyStyleBasicKeyProtocol, style only on set
+     */
+    @IBInspectable var styleKey: String? {
+        get {
+            return (self as? SwiftyStyleInfoProtocol)?.styleKey?.rawValue
+        }
+        set {
+            guard let info = self as? SwiftyStyleInfoProtocol else {
+                if let key = newValue {
+                    (self as? SwiftyStyleProtocol)?.style(as: key)
+                }
+                return
+            }
+            info.styleKey = newValue
+        }
+    }
+}
+
 extension SwiftyStyleProtocol where Self: UIButton {
     
     /**

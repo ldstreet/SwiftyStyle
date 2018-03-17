@@ -13,11 +13,25 @@ import UIKit
  throughout the app's lifecycle. When conforming to this protocol, style() will
  be called only once when the the styleKey is set.
  */
-public protocol SwiftyStyleBasicKeyProtocol: class {
-    
-    /**
-     **This key will not be stored with the control when using default implementation provided in UIView extension.** On set, control will be styled using SwiftyStyleProtocol. On get, nil will always be returned.
-    */
-    var styleKey: StyleKeyProtocol? { get set }
-    
-}
+//public protocol SwiftyStyleBasicKeyProtocol: class {
+//
+//    /**
+//     **This key will not be stored with the control when using default implementation provided in UIView extension.** On set, control will be styled using SwiftyStyleProtocol. On get, nil will always be returned.
+//    */
+//    var styleKey: StyleKeyProtocol? { get set }
+//
+//}
+
+//extension SwiftyStyleBasicKeyProtocol {
+//    var styleKey: StyleKeyProtocol? {
+//        get {
+//            return nil
+//        }
+//        set {
+//            if let stylable = self as? SwiftyStyleProtocol, let key = newValue {
+//                stylable.style(as: key)
+//            }
+//        }
+//    }
+//}
+

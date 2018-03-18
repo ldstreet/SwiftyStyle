@@ -10,7 +10,7 @@ import UIKit
 
 extension UILabel {
     /**
-     Inspectable styleKey that can be used on any stylable control. If view conforms to SwiftyStyleInfoProtocol, stlye using key. If view conforms to  SwiftyStyleBasicKeyProtocol, style only on set
+     Inspectable styleKey that can be used on any stylable control. If view conforms to `SwiftyStyleInfoProtocol`, this key will be stored into styleInfo property. If not, key will not be stored and will only be used to call the `SwiftyStyleProtocol` function `style(as:)` on intial set of this variable.
      */
     @IBInspectable var styleKey: String? {
         get {

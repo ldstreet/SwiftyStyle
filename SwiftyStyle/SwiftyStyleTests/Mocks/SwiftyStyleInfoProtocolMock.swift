@@ -7,6 +7,7 @@
 //
 
 import UIKit
+@testable import SwiftyStyle
 
 class SwiftyStyleInfoProtocolMock: SwiftyStyleInfoProtocol {
     var styleInfo = StyleInfo()

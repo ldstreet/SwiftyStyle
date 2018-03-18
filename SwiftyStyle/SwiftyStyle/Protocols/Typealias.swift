@@ -21,7 +21,7 @@ public typealias Stylable = SwiftyStyleProtocol & SwiftyStyleInfoProtocol & Swif
 public typealias StylableBasic = SwiftyStyleProtocol & SwiftyStyleSetRetrieverProtocol
 
 /**
- If you need your subclass to live at a lower-level (perhaps a common framework) but need to implement the style trategy and styling protocols and a higher level, use these protocols.  StylableBase will allow you to store the StyleInfo object in your base class.
+ If you need your subclass to live at a lower-level (perhaps a common framework) but need to implement the style trategy and styling protocols at a higher level, use these protocols.  StylableBase will allow you to store the StyleInfo object in your base class.
  */
 public typealias StylableBase = SwiftyStyleInfoProtocol
 

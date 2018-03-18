@@ -7,6 +7,7 @@
 //
 
 import Foundation
+@testable import SwiftyStyle
 
 public class StyleStrategyMock: StyleStrategy {
     

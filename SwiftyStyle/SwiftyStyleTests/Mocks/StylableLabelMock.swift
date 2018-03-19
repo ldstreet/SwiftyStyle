@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftyStyle
+@testable import SwiftyStyle
 
 internal class StylableLabelMock: UILabel, Stylable, StylableAdditional {
     

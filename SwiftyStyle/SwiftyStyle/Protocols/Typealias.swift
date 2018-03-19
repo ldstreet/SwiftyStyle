@@ -18,10 +18,10 @@ public typealias Stylable = SwiftyStyleProtocol & SwiftyStyleInfoProtocol & Swif
 /**
  Basic set of Stylable protocols. Because this set uses SwiftyStyleBasicKeyProtocol, controls will not have the ability to be re-styled, this means that a control will only be styled when the styleKey has been set. If done through the storyboard, this will be when the control is loaded. The key is not stored, and thus it cannot be reapplied later on. Use StylableBasic if you can't subclass and only need your controls to be styled once.
  */
-public typealias StylableBasic = SwiftyStyleProtocol & SwiftyStyleBasicKeyProtocol & SwiftyStyleSetRetrieverProtocol
+public typealias StylableBasic = SwiftyStyleProtocol & SwiftyStyleSetRetrieverProtocol
 
 /**
- If you need your subclass to live at a lower-level (perhaps a common framework) but need to implement the style trategy and styling protocols and a higher level, use these protocols.  StylableBase will allow you to store the StyleInfo object in your base class.
+ If you need your subclass to live at a lower-level (perhaps a common framework) but need to implement the style trategy and styling protocols at a higher level, use these protocols.  StylableBase will allow you to store the StyleInfo object in your base class.
  */
 public typealias StylableBase = SwiftyStyleInfoProtocol
 

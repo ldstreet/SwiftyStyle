@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import SwiftyStyle
 
 class BaseStyleImplementationTests: XCTestCase {
     

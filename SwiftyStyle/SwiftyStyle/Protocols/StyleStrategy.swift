@@ -9,7 +9,7 @@
 import Foundation
 
 /**
- Conform to style strategy to define how your UI controls should retrieve their style sets. This could
+ Conform to style strategy to define how your UI controls should retrieve their style sets.
 */
 public protocol StyleStrategy {
     
@@ -34,7 +34,7 @@ extension StyleStrategy {
     public static func transformDictionaryOfPropertiesIntoStyleSet(properties: [String: Any], ColorSetType: ColorSetProtocol.Type? = nil, FontSetType: FontSetProtocol.Type? = nil, customTransformation: ((Any) -> Any?)? = nil) -> StyleSet {
         
         //Map over values to apply transformations
-        let transformedProps = properties.mapValues({ value -> Any in
+        let transformedProps = properties.mapValues { value -> Any in
             
             //Attempt to transform string values into colors and fonts using ColorSetProtocol and FontSetProtocol
             if let str = value as? String {
@@ -52,7 +52,7 @@ extension StyleStrategy {
             }
             
             return value
-        })
+        }
         
         let styleSet = StyleSet(properties: transformedProps)
         return styleSet

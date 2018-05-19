@@ -11,7 +11,7 @@ import UIKit
 /**
  This class holds all info that needs to be stored. For now, this is only the styleKey which allows the control to be re-styled and and a observer for the style update notifications which is called by the StyleManager's styleAllControls() function
  */
-public class StyleInfo {
+public final class StyleInfo {
 
     /**
      Style key stored and used for re-styling

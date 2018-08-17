@@ -15,7 +15,7 @@ extension NSNotification.Name {
     internal static var swiftyStyleUpdate: NSNotification.Name = NSNotification.Name("swiftyStyleUpdate")
 }
 
-public class StyleManager {
+public final class StyleManager {
     
     //Observe vertical size class
     private var verticalSizeClassObserver: NSKeyValueObservation?

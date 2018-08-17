@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SwiftyStyle"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SwiftyStyle."
+  s.summary      = "A pod to make styling dynamic, consistent, and easy."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                  An open source library focused on making styling UI controls and views easy.
+                  A pod to make styling dynamic, consistent, and easy.
                    DESC
 
   s.homepage     = "https://github.com/ldstreet/SwiftyStyle"
@@ -93,7 +93,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "SwiftyStyle/**/*.swift"
-  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

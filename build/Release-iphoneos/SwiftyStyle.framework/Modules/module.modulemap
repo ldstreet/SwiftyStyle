@@ -1,0 +1,11 @@
+framework module SwiftyStyle {
+  umbrella header "SwiftyStyle.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyStyle.Swift {
+    header "SwiftyStyle-Swift.h"
+    requires objc
+}

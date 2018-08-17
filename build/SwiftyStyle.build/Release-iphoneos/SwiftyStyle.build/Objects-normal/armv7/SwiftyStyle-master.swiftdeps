@@ -1,0 +1,23 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "80fdbd29c62f2b39c94fb054fbc5f505"
+build_time: [1534504418, 738581000]
+inputs:
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Classes/StyleInfo.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleInfoProtocol.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Extensions/UIButton+Stylable.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Extensions/UIImageView+Stylable.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Extensions/UILabel+Stylable.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleProtocol.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Structs/ColorSet.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/Typealias.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Extensions/UIApplication+Extensions.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/StyleStrategy.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Structs/FontSet.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/StyleKeyProtocol.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Classes/StyleManager.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Structs/StyleSet.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/SwiftyAdditionalStyleProtocol.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Extensions/UIImage+Extensions.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Protocols/SwiftyStyleSetRetrieverProtocol.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategyInfo.swift": [9223372036, 854775807]
+  "/Users/ldstreet/iOS/SwiftyStyle/SwiftyStyle/Strategies/PlistStrategy/PlistStyleStrategy.swift": [9223372036, 854775807]

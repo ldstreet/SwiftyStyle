@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/ldstreet/iOS/SwiftyStyle/build/Release-iphoneos/SwiftyStyle.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/ldstreet/iOS/SwiftyStyle/build/SwiftyStyle.build/Release-iphoneos/SwiftyStyle.build/unextended-module.modulemap',
+    }]
+  }]
+}

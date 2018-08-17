@@ -20,9 +20,9 @@ public enum StylePlistType {
 }
 
 /**
- Class which holds all plists loaded into dictionaries
+ Struct which holds all plists loaded into dictionaries
 */
-internal class PlistStyleStrategyInfo {
+internal struct PlistStyleStrategyInfo {
     
     /**
      Empty, internal init
@@ -38,7 +38,7 @@ internal class PlistStyleStrategyInfo {
      
      - Remark: For now, bundles are loaded into memory on set, they are not reloaded dynamically. To update PlistStyleStrategyInfo, call this function when/if plist is changed
     */
-    internal func setPlist(forType type: StylePlistType, plistName name: String, bundle: Bundle = Bundle.main) {
+    internal mutating func setPlist(forType type: StylePlistType, plistName name: String, bundle: Bundle = Bundle.main) {
         switch type {
         case .defaultPlist:
             defaultPlist = retrievePlist(with: name, bundle: bundle)

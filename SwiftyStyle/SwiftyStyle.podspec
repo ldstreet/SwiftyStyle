@@ -23,12 +23,12 @@ Pod::Spec.new do |s|
 
   s.platform      = :ios, "10.3"
   
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.platform     = :ios, "10.3"
+  s.swift_version = "4.0"
  
 
   s.source        = { :git => "https://github.com/ldstreet/SwiftyStyle", :tag => "#{s.version}" }
 
   s.source_files  = "SwiftyStyle/**/*.swift"
-  s.exclude_files = "Classes/Exclude"
 
 end

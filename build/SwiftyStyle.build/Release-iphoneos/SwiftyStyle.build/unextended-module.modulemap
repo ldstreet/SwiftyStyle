@@ -1,0 +1,10 @@
+framework module SwiftyStyle {
+  umbrella header "SwiftyStyle.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyStyle.__Swift {
+    exclude header "SwiftyStyle-Swift.h"
+}
